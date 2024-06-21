@@ -1,4 +1,4 @@
-# Monster Management
+# Monster Trainer Management
 
 ## Objective
 
@@ -15,6 +15,18 @@ The program should use:
   - Attack Power
   - HP Level
   - Defense
+
+### Monster Data
+
+Use the following table to initialize the arrays:
+
+| Monster Name | Speed | Attack Power | HP Level | Defense |
+| :----------: | :---: | :----------: | :------: | :-----: |
+| Dragoon      |  85   |      90      |    78    |    88   |
+| Phoenix      |  90   |      95      |    80    |    85   |
+| Hydra        |  78   |      88      |    82    |    80   |
+| Griffin      |  82   |      85      |    79    |    84   |
+| Cerberus     |  88   |      92      |    81    |    86   |
 
 ### Functionalities
 
@@ -42,7 +54,7 @@ The program should display:
 
 ### 3. Initialize Arrays
 
-- Initialize the arrays to store a fixed number of monsters (e.g., 5 monsters).
+- Initialize the arrays with the provided monster data.
 
 ### 4. Find Highest and Lowest Attribute Values
 
@@ -59,38 +71,6 @@ The program should display:
 *    Monster Trainer Manager   *
 *******************************
 
-Enter the number of monsters: 5
-
-Enter monster 1 name: Dragoon
-Enter monster 1 speed: 85
-Enter monster 1 attack power: 90
-Enter monster 1 HP level: 78
-Enter monster 1 defense: 88
-
-Enter monster 2 name: Phoenix
-Enter monster 2 speed: 90
-Enter monster 2 attack power: 95
-Enter monster 2 HP level: 80
-Enter monster 2 defense: 85
-
-Enter monster 3 name: Hydra
-Enter monster 3 speed: 78
-Enter monster 3 attack power: 88
-Enter monster 3 HP level: 82
-Enter monster 3 defense: 80
-
-Enter monster 4 name: Griffin
-Enter monster 4 speed: 82
-Enter monster 4 attack power: 85
-Enter monster 4 HP level: 79
-Enter monster 4 defense: 84
-
-Enter monster 5 name: Cerberus
-Enter monster 5 speed: 88
-Enter monster 5 attack power: 92
-Enter monster 5 HP level: 81
-Enter monster 5 defense: 86
-
 Team Attributes:
 Highest Attribute Values:
 Speed: 90 (Phoenix)
@@ -99,7 +79,19 @@ HP Level: 82 (Hydra)
 Defense: 88 (Dragoon)
 
 Lowest Attribute Values:
-Speed: 78 (Hyd
+Speed: 78 (Hydra)
+Attack Power: 85 (Griffin)
+HP Level: 78 (Dragoon)
+Defense: 80 (Hydra)
+
+All Monsters and Attributes:
+| Monster Name | Speed | Attack Power | HP Level | Defense |
+| :----------: | :---: | :----------: | :------: | :-----: |
+| Dragoon      |  85   |      90      |    78    |    88   |
+| Phoenix      |  90   |      95      |    80    |    85   |
+| Hydra        |  78   |      88      |    82    |    80   |
+| Griffin      |  82   |      85      |    79    |    84   |
+| Cerberus     |  88   |      92      |    81    |    86   |
 ```
 ## Submission Details
 
