@@ -68,7 +68,7 @@ The program should display:
 
 ```plaintext
 *******************************
-*    Monster Trainer Manager   *
+*       Monster Manager       *
 *******************************
 
 Team Attributes:
