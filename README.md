@@ -85,6 +85,7 @@ HP Level: 78 (Dragoon)
 Defense: 80 (Hydra)
 
 All Monsters and Attributes:
+
 | Monster Name | Speed | Attack Power | HP Level | Defense |
 | :----------: | :---: | :----------: | :------: | :-----: |
 | Dragoon      |  85   |      90      |    78    |    88   |
@@ -92,6 +93,7 @@ All Monsters and Attributes:
 | Hydra        |  78   |      88      |    82    |    80   |
 | Griffin      |  82   |      85      |    79    |    84   |
 | Cerberus     |  88   |      92      |    81    |    86   |
+
 ```
 ## Submission Details
 
