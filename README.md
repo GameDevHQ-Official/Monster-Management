@@ -1,16 +1,16 @@
-# Monster Management
+# Monster Trainer Management
 
 ## Objective
 
-Develop a program to manage a team of monsters. Use arrays to store monster names and their corresponding attributes. Implement functionality to display the highest and lowest values for each attribute. Use loops to perform these operations efficiently.
+Develop a program to manage a team of monsters using static arrays. Use a 2D array to store monster attributes and a 1D array to store monster names. Implement functionality to display the highest and lowest values for each attribute. Use loops to perform these operations efficiently.
 
 ## Requirements
 
 ### Data Storage
 
-The program should use arrays to store:
-- Monster names
-- Corresponding attributes:
+The program should use:
+- A 1D array to store monster names
+- A 2D array to store corresponding attributes:
   - Speed
   - Attack Power
   - HP Level
@@ -33,16 +33,16 @@ The program should display:
 ### 1. Set Up Project
 
 - Create a new C++ project and set up your development environment.
-- Include necessary headers (`<iostream>`, `<string>`, `<limits>`).
+- Include necessary headers (`<iostream>`, `<string>`).
 
 ### 2. Define Variables
 
-- Define arrays to store monster names and their attributes (Speed, Attack Power, HP Level, Defense).
-- Define variables for the number of monsters, highest and lowest values for each attribute.
+- Define a 1D array to store monster names.
+- Define a 2D array to store monster attributes (Speed, Attack Power, HP Level, Defense).
 
 ### 3. Initialize Arrays
 
-- Initialize the arrays to store a fixed number of monsters (e.g., 30 monsters).
+- Initialize the arrays to store a fixed number of monsters (e.g., 5 monsters).
 
 ### 4. Find Highest and Lowest Attribute Values
 
@@ -59,7 +59,7 @@ The program should display:
 *    Monster Trainer Manager   *
 *******************************
 
-Enter the number of monsters: 3
+Enter the number of monsters: 5
 
 Enter monster 1 name: Dragoon
 Enter monster 1 speed: 85
@@ -79,6 +79,18 @@ Enter monster 3 attack power: 88
 Enter monster 3 HP level: 82
 Enter monster 3 defense: 80
 
+Enter monster 4 name: Griffin
+Enter monster 4 speed: 82
+Enter monster 4 attack power: 85
+Enter monster 4 HP level: 79
+Enter monster 4 defense: 84
+
+Enter monster 5 name: Cerberus
+Enter monster 5 speed: 88
+Enter monster 5 attack power: 92
+Enter monster 5 HP level: 81
+Enter monster 5 defense: 86
+
 Team Attributes:
 Highest Attribute Values:
 Speed: 90 (Phoenix)
@@ -87,15 +99,7 @@ HP Level: 82 (Hydra)
 Defense: 88 (Dragoon)
 
 Lowest Attribute Values:
-Speed: 78 (Hydra)
-Attack Power: 88 (Hydra)
-HP Level: 78 (Dragoon)
-Defense: 80 (Hydra)
-
-All Monsters and Attributes:
-Dragoon: Speed: 85, Attack Power: 90, HP Level: 78, Defense: 88
-Phoenix: Speed: 90, Attack Power: 95, HP Level: 80, Defense: 85
-Hydra: Speed: 78, Attack Power: 88, HP Level: 82, Defense: 80
+Speed: 78 (Hyd
 ```
 ## Submission Details
 
