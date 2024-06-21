@@ -1,4 +1,4 @@
-# Monster Trainer Management
+# Monster Management
 
 ## Objective
 
